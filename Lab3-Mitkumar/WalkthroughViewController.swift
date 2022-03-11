@@ -84,6 +84,11 @@ class WalkthroughViewController: UIViewController, WalkthroughPageViewController
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //skipButton.addTarget(self, action: #selector(tapOnButton), for: .touchUpInside)
+    }
+    
+    @objc func tapOnButton() {
+        let story = UIStoryboard(name: "Main", bundle: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

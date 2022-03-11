@@ -16,6 +16,7 @@
 		3252082027DA87620062F074 /* Lab3_MitkumarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252081F27DA87620062F074 /* Lab3_MitkumarTests.swift */; };
 		3252082A27DA87620062F074 /* Lab3_MitkumarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252082927DA87620062F074 /* Lab3_MitkumarUITests.swift */; };
 		3252082C27DA87620062F074 /* Lab3_MitkumarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252082B27DA87620062F074 /* Lab3_MitkumarUITestsLaunchTests.swift */; };
+		32577B7F27DBE80E000B61D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32577B7E27DBE80E000B61D6 /* LoginViewController.swift */; };
 		3267DDD827DABFBD00CE3C5A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3267DDD727DABFBD00CE3C5A /* Onboarding.storyboard */; };
 		3267DDE027DAC0E800CE3C5A /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267DDDE27DAC0E800CE3C5A /* WalkthroughContentViewController.swift */; };
 		3267DDE127DAC0E800CE3C5A /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267DDDF27DAC0E800CE3C5A /* WalkthroughPageViewController.swift */; };
@@ -56,6 +57,7 @@
 		3252082527DA87620062F074 /* Lab3-MitkumarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab3-MitkumarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3252082927DA87620062F074 /* Lab3_MitkumarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_MitkumarUITests.swift; sourceTree = "<group>"; };
 		3252082B27DA87620062F074 /* Lab3_MitkumarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_MitkumarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32577B7E27DBE80E000B61D6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3267DDD727DABFBD00CE3C5A /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		3267DDDD27DAC0E800CE3C5A /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
 		3267DDDE27DAC0E800CE3C5A /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WalkthroughContentViewController.swift; path = Controller/WalkthroughContentViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				3252081327DA87610062F074 /* LaunchScreen.storyboard */,
 				3252081627DA87610062F074 /* Info.plist */,
 				32D36FFC27DAA29D00FEB0B6 /* ParticleSence.swift */,
+				32577B7E27DBE80E000B61D6 /* LoginViewController.swift */,
 			);
 			path = "Lab3-Mitkumar";
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				3267DDE227DAC0E800CE3C5A /* WalkthroughViewController.swift in Sources */,
 				32D36FFD27DAA29D00FEB0B6 /* ParticleSence.swift in Sources */,
 				3252080D27DA87600062F074 /* ViewController.swift in Sources */,
+				32577B7F27DBE80E000B61D6 /* LoginViewController.swift in Sources */,
 				3252080927DA87600062F074 /* AppDelegate.swift in Sources */,
 				3267DDE027DAC0E800CE3C5A /* WalkthroughContentViewController.swift in Sources */,
 				3252080B27DA87600062F074 /* SceneDelegate.swift in Sources */,
