@@ -14,7 +14,7 @@
                 <pageViewController storyboardIdentifier="WalkthroughPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="lGw-K7-hmv" customClass="WalkthroughPageViewController" customModule="Lab3_Mitkumar" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oWm-Bi-wRg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="475" y="56"/>
+            <point key="canvasLocation" x="607" y="58"/>
         </scene>
         <!--Walkthrough Content View Controller-->
         <scene sceneID="vUW-Xx-G5K">
@@ -68,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XIb-lX-j5p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="883" y="516"/>
+            <point key="canvasLocation" x="607" y="403"/>
         </scene>
         <!--Walkthrough View Controller-->
         <scene sceneID="qxJ-Sn-jpK">
@@ -94,7 +94,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srx-xW-VSQ">
                                         <rect key="frame" x="34" y="29" width="346" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <color key="backgroundColor" red="1" green="0.25490196078431371" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" systemColor="systemBackgroundColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -114,7 +114,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDv-vw-cyf">
                                         <rect key="frame" x="34" y="129" width="346" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <color key="backgroundColor" red="1" green="0.25490196078431371" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -149,7 +149,7 @@
                                 <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pageControl>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="jxs-kU-Bi2">
-                                <rect key="frame" x="155" y="408" width="104" height="93"/>
+                                <rect key="frame" x="155" y="438" width="104" height="113"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tqi-8f-VOk"/>
@@ -157,17 +157,21 @@
                         <constraints>
                             <constraint firstItem="rqb-lr-p35" firstAttribute="height" secondItem="Tqi-8f-VOk" secondAttribute="height" multiplier="1:3" id="3fx-8R-EcI"/>
                             <constraint firstItem="RfR-fI-OI6" firstAttribute="top" secondItem="Tqi-8f-VOk" secondAttribute="top" id="4Nf-fm-C38"/>
-                            <constraint firstItem="jxs-kU-Bi2" firstAttribute="top" secondItem="RfR-fI-OI6" secondAttribute="bottom" id="6vL-oY-Zhb"/>
+                            <constraint firstItem="Tqi-8f-VOk" firstAttribute="trailing" secondItem="jxs-kU-Bi2" secondAttribute="trailing" constant="155" id="9O6-md-jo3"/>
+                            <constraint firstItem="jxs-kU-Bi2" firstAttribute="leading" secondItem="Tqi-8f-VOk" secondAttribute="leading" constant="155" id="M9t-7P-D6G"/>
                             <constraint firstItem="RfR-fI-OI6" firstAttribute="trailing" secondItem="Tqi-8f-VOk" secondAttribute="trailing" id="O7p-C3-CkD"/>
                             <constraint firstItem="RfR-fI-OI6" firstAttribute="trailing" secondItem="Tqi-8f-VOk" secondAttribute="trailing" id="UMa-FI-6xF"/>
+                            <constraint firstItem="Tqi-8f-VOk" firstAttribute="trailing" secondItem="jxs-kU-Bi2" secondAttribute="trailing" constant="155" id="WJL-b3-uej"/>
                             <constraint firstItem="RfR-fI-OI6" firstAttribute="leading" secondItem="Tqi-8f-VOk" secondAttribute="leading" id="X7m-iA-bB1"/>
+                            <constraint firstItem="jxs-kU-Bi2" firstAttribute="leading" secondItem="Tqi-8f-VOk" secondAttribute="leading" constant="155" id="ZqC-5N-xuw"/>
                             <constraint firstItem="jxs-kU-Bi2" firstAttribute="leading" secondItem="Tqi-8f-VOk" secondAttribute="leading" constant="155" id="few-TR-70k"/>
-                            <constraint firstItem="rqb-lr-p35" firstAttribute="top" secondItem="jxs-kU-Bi2" secondAttribute="bottom" constant="88.5" id="kC1-xu-z8s"/>
                             <constraint firstItem="RfR-fI-OI6" firstAttribute="top" secondItem="Tqi-8f-VOk" secondAttribute="top" id="m4g-yI-Wv6"/>
                             <constraint firstItem="Tqi-8f-VOk" firstAttribute="trailing" secondItem="jxs-kU-Bi2" secondAttribute="trailing" constant="155" id="oCX-Rh-f5J"/>
                             <constraint firstItem="rqb-lr-p35" firstAttribute="bottom" secondItem="Tqi-8f-VOk" secondAttribute="bottom" id="rN9-QQ-FVq"/>
                             <constraint firstItem="rqb-lr-p35" firstAttribute="leading" secondItem="Tqi-8f-VOk" secondAttribute="leading" id="s9D-7c-XsP"/>
+                            <constraint firstItem="rqb-lr-p35" firstAttribute="top" secondItem="jxs-kU-Bi2" secondAttribute="bottom" constant="38.5" id="tzM-In-Rfx"/>
                             <constraint firstItem="rqb-lr-p35" firstAttribute="top" secondItem="RfR-fI-OI6" secondAttribute="bottom" constant="181.5" id="v5I-pt-Og4"/>
+                            <constraint firstItem="jxs-kU-Bi2" firstAttribute="top" secondItem="RfR-fI-OI6" secondAttribute="bottom" constant="30" id="wD0-TX-qvl"/>
                             <constraint firstItem="rqb-lr-p35" firstAttribute="trailing" secondItem="Tqi-8f-VOk" secondAttribute="trailing" id="zCu-6h-uc1"/>
                         </constraints>
                     </view>
@@ -197,9 +201,6 @@
         </systemColor>
         <systemColor name="systemGroupedBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

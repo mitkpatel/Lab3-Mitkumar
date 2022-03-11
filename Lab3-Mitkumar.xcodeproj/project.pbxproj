@@ -61,7 +61,7 @@
 		3267DDDE27DAC0E800CE3C5A /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WalkthroughContentViewController.swift; path = Controller/WalkthroughContentViewController.swift; sourceTree = "<group>"; };
 		3267DDDF27DAC0E800CE3C5A /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
 		32D36FF827DA9FA800FEB0B6 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
-		32D36FF927DA9FA800FEB0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32D36FF927DA9FA800FEB0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		32D36FFC27DAA29D00FEB0B6 /* ParticleSence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,8 +93,6 @@
 		325207FC27DA87600062F074 = {
 			isa = PBXGroup;
 			children = (
-				32D36FF827DA9FA800FEB0B6 /* Rain.sks */,
-				32D36FF927DA9FA800FEB0B6 /* Assets.xcassets */,
 				3252080727DA87600062F074 /* Lab3-Mitkumar */,
 				3252081E27DA87620062F074 /* Lab3-MitkumarTests */,
 				3252082827DA87620062F074 /* Lab3-MitkumarUITests */,
@@ -117,7 +115,9 @@
 			children = (
 				3252080827DA87600062F074 /* AppDelegate.swift */,
 				3252080A27DA87600062F074 /* SceneDelegate.swift */,
+				32D36FF927DA9FA800FEB0B6 /* Assets.xcassets */,
 				3252080C27DA87600062F074 /* ViewController.swift */,
+				32D36FF827DA9FA800FEB0B6 /* Rain.sks */,
 				3252080E27DA87600062F074 /* Main.storyboard */,
 				3267DDDE27DAC0E800CE3C5A /* WalkthroughContentViewController.swift */,
 				3267DDDF27DAC0E800CE3C5A /* WalkthroughPageViewController.swift */,
