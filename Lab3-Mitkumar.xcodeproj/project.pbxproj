@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32335FCF27DC1A390098FAD9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32335FCE27DC1A390098FAD9 /* ProfileViewController.swift */; };
 		3252080927DA87600062F074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252080827DA87600062F074 /* AppDelegate.swift */; };
 		3252080B27DA87600062F074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252080A27DA87600062F074 /* SceneDelegate.swift */; };
 		3252080D27DA87600062F074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252080C27DA87600062F074 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		32D36FFA27DA9FA800FEB0B6 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 32D36FF827DA9FA800FEB0B6 /* Rain.sks */; };
 		32D36FFB27DA9FA800FEB0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D36FF927DA9FA800FEB0B6 /* Assets.xcassets */; };
 		32D36FFD27DAA29D00FEB0B6 /* ParticleSence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D36FFC27DAA29D00FEB0B6 /* ParticleSence.swift */; };
+		32FBB29C27DC54B800B98B47 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBB29B27DC54B800B98B47 /* NotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32335FCE27DC1A390098FAD9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3252080527DA87600062F074 /* Lab3-Mitkumar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab3-Mitkumar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3252080827DA87600062F074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3252080A27DA87600062F074 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		32D36FF827DA9FA800FEB0B6 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
 		32D36FF927DA9FA800FEB0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		32D36FFC27DAA29D00FEB0B6 /* ParticleSence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSence.swift; sourceTree = "<group>"; };
+		32FBB29B27DC54B800B98B47 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,8 @@
 				3252081627DA87610062F074 /* Info.plist */,
 				32D36FFC27DAA29D00FEB0B6 /* ParticleSence.swift */,
 				32577B7E27DBE80E000B61D6 /* LoginViewController.swift */,
+				32335FCE27DC1A390098FAD9 /* ProfileViewController.swift */,
+				32FBB29B27DC54B800B98B47 /* NotificationViewController.swift */,
 			);
 			path = "Lab3-Mitkumar";
 			sourceTree = "<group>";
@@ -285,12 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FBB29C27DC54B800B98B47 /* NotificationViewController.swift in Sources */,
 				3267DDE127DAC0E800CE3C5A /* WalkthroughPageViewController.swift in Sources */,
 				3267DDE227DAC0E800CE3C5A /* WalkthroughViewController.swift in Sources */,
 				32D36FFD27DAA29D00FEB0B6 /* ParticleSence.swift in Sources */,
 				3252080D27DA87600062F074 /* ViewController.swift in Sources */,
 				32577B7F27DBE80E000B61D6 /* LoginViewController.swift in Sources */,
 				3252080927DA87600062F074 /* AppDelegate.swift in Sources */,
+				32335FCF27DC1A390098FAD9 /* ProfileViewController.swift in Sources */,
 				3267DDE027DAC0E800CE3C5A /* WalkthroughContentViewController.swift in Sources */,
 				3252080B27DA87600062F074 /* SceneDelegate.swift in Sources */,
 			);

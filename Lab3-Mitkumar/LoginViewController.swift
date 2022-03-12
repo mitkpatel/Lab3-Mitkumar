@@ -13,9 +13,30 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var password: UITextField!
     
+    @IBOutlet weak var btnSignIn: UIButton!
+    
+    @objc func tapOnSignIn() {
+        let story = UIStoryboard(name: "Main", bundle: nil)
+        let controller = story.instantiateViewController(withIdentifier: "ProfileController") as!
+        ProfileViewController
+        self.present(controller, animated: true, completion: nil)
+    }
+    
+    @objc func tapOnButtonForNavigation() {
+        let story = UIStoryboard(name: "Main", bundle: nil)
+        let controller = story.instantiateViewController(withIdentifier: "ProfileController") as!
+        ProfileViewController
+        let navigation = UINavigationController(rootViewController: controller)
+        self.view.addSubview(navigation.view)
+        self.addChild(navigation)
+        navigation.didMove(toParent: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        btnSignIn.addTarget(self, action: #selector(tapOnButtonForNavigation), for: .touchUpInside)
+        
         let bottomLineEmail = CALayer()
         let bottomLinePassword = CALayer()
         let emailIcon = UIImageView()
